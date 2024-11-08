@@ -6,16 +6,18 @@ const QuadView = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: red;
+  background-color: peachpuff;
+  height: 100vh;
 `;
 
 const MultiView = styled.div``;
 
 const ContentButton = styled.button`
-  width: 10vw;
-  height: auto;
+  width: 30vw;
+  height: 18vh;
   border: 1px solid black;
-  margin: 15px;
+  margin: 20px;
+  border-radius: 15px;
 `;
 
 function App() {
