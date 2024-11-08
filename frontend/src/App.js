@@ -18,12 +18,20 @@ const ContentButton = styled.button`
   border: 1px solid black;
   margin: 20px;
   border-radius: 15px;
+  max-width: 180px;
+`;
+
+const Title = styled.text`
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
 `;
 
 function App() {
   return (
     <>
       <QuadView>
+        <Title>이거보세요</Title>
         <MultiView>
           <ContentButton>11</ContentButton>
           <ContentButton>22</ContentButton>
