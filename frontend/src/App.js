@@ -5,15 +5,17 @@ const QuadView = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  background-color: red;
 `;
 
 const MultiView = styled.div``;
 
 const ContentButton = styled.button`
-  width: 25vw;
-  height: 25vh;
+  width: 10vw;
+  height: auto;
   border: 1px solid black;
-  margin: 50px;
+  margin: 15px;
 `;
 
 function App() {
